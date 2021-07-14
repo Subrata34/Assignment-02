@@ -106,7 +106,7 @@ button{
  }
 
 /* ----------------------------------------footer style------------------------------------ */
-}
+
 footer img{
     
     width:32px;
@@ -123,4 +123,80 @@ footer {
     border-right:0;
     margin-left: 0;
 }
+    /* ....................trophy tag decorated................................ */
+
+.trophy{
+    text-align:center;
+}
+
+/*........................... media Quaries.................................... */
+/* ...........................mobile device ..................................... */
+@media only  screen and (max-width:688px) {
+    nav ul{ 
+    flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    #login{
+        margin-left:-50px;
+    }
+    article ul{
+        flex-direction: column ;
+    }
+    .banner img{
+        position:center;
+        width: 250px;
+        height: 150px;
+        margin-left: 10px;
+    }
+    .banner{
+    flex-direction: column;
+    }
+    .copa{
+        margin-left: 10px;
+    }
+    .head-title{
+        font-size: 15px;
+    }
+    header{
+        background-color: green;
+        width :400px;
+        height:500px;
+        margin-left :0;
+        margin-right: 0;
+        text-align: center;
+        
+    
+        
+    }
+    button{
+        border-radius:10px;
+        margin-left: 30px;
+        border:0;
+        padding:10px;
+        background-color:orange;
+        
+    }
+    .picture-rotate img{
+        margin-top: 35px;
+        margin-left: -100px;
+        
+    }
+    players_grid{
+        display :grid;
+       grid-template-columns:repeat(3,1fr) ;
+       width: 1050px;
+       left: 180px;
+       top: 1248px;
+    }
+    .players_grid{
+        display :grid;
+       grid-template-columns:repeat(1,1fr) ;
+       align-items: center;
+       margin-left:-10px;
+       
+    }
+}
+
  
