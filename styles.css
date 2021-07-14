@@ -20,7 +20,7 @@ nav ul{
     display :flex;
 }
 
-link{
+body{
     font-family: 'Poppins', sans-serif;
 }
 .copa{
@@ -50,9 +50,20 @@ button{
     position: absolute;
     width: 600px;
     height: 300px;
-    margin-left: 400px;
+    margin-left: 230px;
+    
     
 }
 .banner{
     display :flex;
+}
+.head-title{
+    font-size: 35px;
+
+}
+div img:hover{
+    width:700px;
+    height:300px;
+    transform: rotate(10deg);
+
 }
